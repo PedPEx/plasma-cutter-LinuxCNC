@@ -1,9 +1,9 @@
-# Sun Mar 03 22:38:24 CET 2024
+# Sun Mar 03 23:42:40 CET 2024
 #
 # This file:    ./minimal_xyz_cmds.hal
 # Created by:   /usr/share/linuxcnc/hallib/basic_sim.tcl
 # With options: 
-# From inifile: /home/cnc/linuxcnc/configs/sim.axis/minimal_xyz.ini
+# From inifile: /home/cnc/linuxcnc/configs/plasma-cutter-LinuxCNC/minimal_xyz.ini
 # Halfiles:     LIB:basic_sim.tcl ethercat.hal
 #
 # This file contains the hal commands produced by basic_sim.tcl
