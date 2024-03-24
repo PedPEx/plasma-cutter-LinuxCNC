@@ -1,6 +1,6 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 1182x881+424+75
+wm geometry . 1182x881+447+46
 placeFrames 0.41012216404886565
 set ::ratio 0.41012216404886565
 set ::old_w_leftf 160
@@ -23,9 +23,24 @@ set ::watchlist {
     pin+lcec.m0.0501_EL2008_01.dout-1
     pin+lcec.m0.0501_EL5101_01.enc-frequency
     pin+lcec.m0.0501_EL5101_01.enc-raw-freq
+    pin+lcec.m0.2001_JMC-Servo1.actual-position
+    pin+lcec.m0.2001_JMC-Servo1.actual-torque
+    pin+lcec.m0.2001_JMC-Servo1.actual-velocity
+    pin+lcec.m0.2001_JMC-Servo1.cia-controlword
+    pin+lcec.m0.2001_JMC-Servo1.cia-statusword
+    pin+lcec.m0.2001_JMC-Servo1.opmode
+    pin+lcec.m0.2001_JMC-Servo1.opmode-display
+    pin+lcec.m0.2001_JMC-Servo1.slave-online
+    pin+lcec.m0.2001_JMC-Servo1.slave-oper
+    pin+lcec.m0.2001_JMC-Servo1.slave-state-init
+    pin+lcec.m0.2001_JMC-Servo1.slave-state-op
+    pin+lcec.m0.2001_JMC-Servo1.slave-state-preop
+    pin+lcec.m0.2001_JMC-Servo1.slave-state-safeop
+    pin+lcec.m0.2001_JMC-Servo1.target-position
+    pin+lcec.m0.2001_JMC-Servo1.target-velocity
 }
 set ::workmode watchhal
-set ::watchInterval 100
+set ::watchInterval 10
 set ::col1_width 100
 set ::ffmts 
 set ::ifmts 
