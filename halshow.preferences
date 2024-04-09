@@ -1,6 +1,6 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 1182x881+447+46
+wm geometry . 1182x881+262+87
 placeFrames 0.41012216404886565
 set ::ratio 0.41012216404886565
 set ::old_w_leftf 160
@@ -38,6 +38,35 @@ set ::watchlist {
     pin+lcec.m0.2001_JMC-Servo1.slave-state-safeop
     pin+lcec.m0.2001_JMC-Servo1.target-position
     pin+lcec.m0.2001_JMC-Servo1.target-velocity
+    pin+lcec.m0.EP4374-0002.ch-1-error
+    pin+lcec.m0.EP4374-0002.ch-1-limit-1-0
+    pin+lcec.m0.EP4374-0002.ch-1-limit-1-1
+    pin+lcec.m0.EP4374-0002.ch-1-limit-2-0
+    pin+lcec.m0.EP4374-0002.ch-1-limit-2-1
+    pin+lcec.m0.EP4374-0002.ch-1-overrange
+    pin+lcec.m0.EP4374-0002.ch-1-sync-error
+    pin+lcec.m0.EP4374-0002.ch-1-txpdo-state
+    pin+lcec.m0.EP4374-0002.ch-1-txpdo-toggle
+    pin+lcec.m0.EP4374-0002.ch-1-value
+    pin+lcec.m0.EP4374-0002.ch-2-error
+    pin+lcec.m0.EP4374-0002.ch-2-limit-1-0
+    pin+lcec.m0.EP4374-0002.ch-2-limit-1-1
+    pin+lcec.m0.EP4374-0002.ch-2-limit-2-0
+    pin+lcec.m0.EP4374-0002.ch-2-limit-2-1
+    pin+lcec.m0.EP4374-0002.ch-2-overrange
+    pin+lcec.m0.EP4374-0002.ch-2-sync-error
+    pin+lcec.m0.EP4374-0002.ch-2-txpdo-state
+    pin+lcec.m0.EP4374-0002.ch-2-txpdo-toggle
+    pin+lcec.m0.EP4374-0002.ch-2-underrange
+    pin+lcec.m0.EP4374-0002.ch-2-value
+    pin+lcec.m0.EP4374-0002.ch-3-analog-output
+    pin+lcec.m0.EP4374-0002.ch-4-analog-output
+    pin+lcec.m0.EP4374-0002.slave-online
+    pin+lcec.m0.EP4374-0002.slave-oper
+    pin+lcec.m0.EP4374-0002.slave-state-init
+    pin+lcec.m0.EP4374-0002.slave-state-op
+    pin+lcec.m0.EP4374-0002.slave-state-preop
+    pin+lcec.m0.EP4374-0002.slave-state-safeop
 }
 set ::workmode watchhal
 set ::watchInterval 10

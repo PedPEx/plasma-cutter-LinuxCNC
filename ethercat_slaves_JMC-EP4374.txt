@@ -1,0 +1,249 @@
+=== Master 0, Slave 0 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x044d2c52
+  Revision number: 0x00120000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 0 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  MII   up    open    yes             -    348226643           0           0
+   1  EBUS  up    open    yes             1    348230383        3740         145
+   2  MII   down  closed  no              -            -           -           -
+   3  N/A   down  closed  no              -            -           -           -
+General:
+  Group: SystemBk
+  Image name: 
+  Order number: EK1101
+  Device name: EK1101 EtherCAT-Koppler (2A E-Bus, ID-Switch)
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: -2000 mA
+=== Master 0, Slave 1 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x03f03052
+  Revision number: 0x00120000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, delay measurement only
+  DC system time transmission delay: 145 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  EBUS  up    open    yes             0    372880338           0         145
+   1  EBUS  up    open    yes             2    372883788        3450         145
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/C   down  closed  no              -            -           -           -
+General:
+  Group: DigIn
+  Image name: 
+  Order number: EL1008
+  Device name: EL1008 8K. Dig. Eingang 24V, 3ms
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 90 mA
+=== Master 0, Slave 2 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x03fa3052
+  Revision number: 0x00100000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 290 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  EBUS  up    open    yes             1    435072570           0         145
+   1  EBUS  up    open    yes             3    435075730        3160         145
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/C   down  closed  no              -            -           -           -
+General:
+  Group: DigIn
+  Image name: TERM_DI
+  Order number: EL1018
+  Device name: EL1018 8Ch. Dig. Input 24V, 10µs
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 90 mA
+=== Master 0, Slave 3 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x07d83052
+  Revision number: 0x00120000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, delay measurement only
+  DC system time transmission delay: 435 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  EBUS  up    open    yes             2    359501128           0         145
+   1  EBUS  up    open    yes             4    359503998        2870         144
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/C   down  closed  no              -            -           -           -
+General:
+  Group: DigOut
+  Image name: 
+  Order number: EL2008
+  Device name: EL2008 8K. Dig. Ausgang 24V, 0.5A
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 110 mA
+=== Master 0, Slave 4 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x13ed3052
+  Revision number: 0x04000000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 579 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  EBUS  up    open    yes             3    350990753           0         144
+   1  EBUS  up    open    yes             5    350993334        2581         145
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/A   down  closed  no              -            -           -           -
+Mailboxes:
+  Bootstrap RX: 0x1000/244, TX: 0x10f4/244
+  Standard  RX: 0x1800/48, TX: 0x1880/48
+  Supported protocols: CoE, FoE
+General:
+  Group: Measuring
+  Image name: 
+  Order number: EL5101
+  Device name: EL5101 1K. Inc. Encoder 5V
+  CoE details:
+    Enable SDO: yes
+    Enable SDO Info: yes
+    Enable PDO Assign: yes
+    Enable PDO Configuration: no
+    Enable Upload at startup: no
+    Enable SDO complete access: no
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 130 mA
+=== Master 0, Slave 5 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x04622c52
+  Revision number: 0x00120000
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 724 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  EBUS  up    open    yes             4    346918066           0         145
+   1  MII   up    open    yes             7    346920356        2290         560
+   2  EBUS  down  closed  no              -            -           -           -
+   3  MII   up    open    yes             6    346919236        1170         585
+General:
+  Group: System
+  Image name: 
+  Order number: EK1122
+  Device name: EK1122 2-Port EtherCAT-Abzweig
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 220 mA
+=== Master 0, Slave 6 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x66668888
+  Product code:    0x2019a301
+  Revision number: 0x20191105
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 1309 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  MII   up    open    yes             5   3444829649           0         585
+   1  MII   down  closed  no              -            -           -           -
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/A   down  closed  no              -            -           -           -
+Mailboxes:
+  Bootstrap RX: 0x0000/0, TX: 0x0000/0
+  Standard  RX: 0x1000/128, TX: 0x1200/256
+  Supported protocols: CoE
+General:
+  Group: IHSV Slave
+  Image name: 
+  Order number: IHSV57/60-EC
+  Device name: IHSV57/60-EC
+  CoE details:
+    Enable SDO: yes
+    Enable SDO Info: yes
+    Enable PDO Assign: yes
+    Enable PDO Configuration: yes
+    Enable Upload at startup: no
+    Enable SDO complete access: yes
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 0 mA
+=== Master 0, Slave 7 ===
+Device: Main
+State: PREOP
+Flag: +
+Identity:
+  Vendor Id:       0x00000002
+  Product code:    0x11164052
+  Revision number: 0x00130002
+  Serial number:   0x00000000
+DL information:
+  FMMU bit operation: no
+  Distributed clocks: yes, 64 bit
+  DC system time transmission delay: 2454 ns
+Port  Type  Link  Loop    Signal  NextSlave  RxTime [ns]  Diff [ns]   NextDc [ns]
+   0  MII   up    open    yes             5    609495647           0         560
+   1  MII   down  closed  no              -            -           -           -
+   2  N/A   down  closed  no              -            -           -           -
+   3  N/A   down  closed  no              -            -           -           -
+Mailboxes:
+  Bootstrap RX: 0x1000/244, TX: 0x10f4/244
+  Standard  RX: 0x1000/128, TX: 0x1080/128
+  Supported protocols: CoE, FoE
+General:
+  Group: FieldbusBoxEP4xxx
+  Image name: 
+  Order number: EP4374-0002
+  Device name: EP4374-0002 2K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurie
+  CoE details:
+    Enable SDO: yes
+    Enable SDO Info: yes
+    Enable PDO Assign: yes
+    Enable PDO Configuration: no
+    Enable Upload at startup: no
+    Enable SDO complete access: no
+  Flags:
+    Enable SafeOp: no
+    Enable notLRW: no
+  Current consumption: 0 mA
