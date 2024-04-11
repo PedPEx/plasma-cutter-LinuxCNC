@@ -5,9 +5,10 @@
 		<slave idx="2" type="EL1018" name="0501_EL1018_01"/>
 		<slave idx="3" type="EL2008" name="0501_EL2008_01"/>
 		<slave idx="4" type="EL5101" name="0501_EL5101_01"/>
-		<slave idx="5" type="EK1122" name="0501_EK1122_01"/>
+		<slave idx="5" type="EL1859" name="0501_EL1859_01"/>
+		<slave idx="6" type="EK1122" name="0501_EK1122_01"/>
 		<!-- Joint 0 -->
-		<slave idx="6" type="generic" vid="66668888" pid="2019A301" configPdos="true" name="2001_JMC-Servo1">
+		<slave idx="7" type="generic" vid="66668888" pid="2019A301" configPdos="true" name="2001_JMC-Servo1">
 			<dcConf assignActivate="300" sync0Cycle="*1" sync0Shift="0"/>
 				<syncManager idx="2" dir="out">
 					<pdo idx="1600">
@@ -27,7 +28,7 @@
 					</pdo>
 				</syncManager>
 		</slave>
-		<slave idx="7" type="generic" vid="0x00000002" pid="0x11164052" name="EP4374-0002">
+		<slave idx="8" type="generic" vid="0x00000002" pid="0x11164052" name="EP4374-0002">
 			<!--EP4374-0002 2K. Ana. Eingang +/-10V, 0-10V, 0/4-20mA konfigurie-->
 			<syncManager idx="0" dir="in"/>
 			<syncManager idx="1" dir="out"/>
