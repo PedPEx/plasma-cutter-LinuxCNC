@@ -1,0 +1,53 @@
+# Halshow settings
+# This file is generated automatically.
+wm geometry . 1070x701+304+147
+placeFrames 0.41012216404886565
+set ::ratio 0.41012216404886565
+set ::old_w_leftf 160
+set ::watchlist {
+    pin+lcec.all-op
+    pin+lcec.state-safeop
+    pin+lcec.state-preop
+    pin+lcec.state-op
+    pin+lcec.state-init
+    pin+lcec.slaves-responding
+    pin+lcec.conf.slave-count
+    pin+lcec.conf.master-count
+    pin+cia402.0.drv-actual-position
+    pin+cia402.0.drv-actual-velocity
+    pin+cia402.0.drv-fault
+    pin+cia402.0.drv-target-position
+    pin+cia402.0.drv-target-velocity
+    pin+cia402.0.enable
+    pin+cia402.0.statusword
+    pin+cia402.0.controlword
+    pin+joint.0.active
+    pin+joint.0.error
+    pin+joint.0.faulted
+    pin+joint.0.home-state
+    pin+joint.0.home-sw-in
+    pin+joint.0.homed
+    pin+joint.0.homing
+    pin+joint.0.in-position
+    pin+joint.0.pos-cmd
+    pin+joint.0.pos-fb
+    pin+lcec.m0.JMC.slave-state-op
+    pin+lcec.m0.JMC.srv-actual-velocity
+    pin+lcec.m0.JMC.srv-cia-controlword
+    pin+lcec.m0.JMC.srv-cia-statusword
+    pin+lcec.m0.JMC.srv-opmode
+    pin+lcec.m0.JMC.srv-target-velocity
+    pin+lcec.m0.JMC.srv-opmode-display
+    pin+lcec.m0.JMC.srv-target-position
+    pin+lcec.m0.JMC.srv-actual-position
+    pin+lcec.m0.JMC.inputs
+    pin+lcec.m0.JMC.srv-actual-torque
+    pin+ini.0.home
+}
+set ::workmode watchhal
+set ::watchInterval 10
+set ::col1_width 100
+set ::ffmts 
+set ::ifmts 
+set ::alwaysOnTop 0
+set ::autoSaveWatchlist 1

@@ -1,10 +1,12 @@
 <masters>
 	<master idx="0" appTimePeriod="1000000" refClockSyncCycles="5" name="m0">
+	<!-- Beckhoff IO -->
 		<slave idx="0" type="EK1101" name="0501_EK1101"/>
 		<slave idx="1" type="EL1008" name="0501_EL1008_01"/>
 		<slave idx="2" type="EL1018" name="0501_EL1018_01"/>
 		<slave idx="3" type="EL2008" name="0501_EL2008_01"/>
 		<slave idx="4" type="EK1122" name="0501_EK1122_01"/>
+	<!-- Motion RTELLIGENT drives-->
 		<slave idx="5" type="ECT60" name="2001_ECT60">
 			<modParam name="peakCurrent_amps" value="3.0"/>
 			<modParam name="controlMode" value="openloop"/>
@@ -25,6 +27,7 @@
 			<modParam name="controlMode" value="openloop"/>
 			<modParam name="homeOffset" value="1"/>
 		</slave>
+
 	</master>
 </masters>
 

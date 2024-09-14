@@ -1,0 +1,59 @@
+# Halshow settings
+# This file is generated automatically.
+wm geometry . 1920x962+0+31
+placeFrames 0.3
+set ::ratio 0.3
+set ::old_w_leftf 160
+set ::watchlist {
+    pin+lcec.all-op
+    pin+lcec.conf.slave-count
+    pin+lcec.m0.slaves-responding
+    pin+lcec.m0.state-op
+    pin+lcec.m0.0501_EL1859_01.din-0
+    pin+lcec.m0.0501_EL1859_01.din-1
+    pin+lcec.m0.0501_EL1859_01.din-2
+    pin+lcec.m0.0501_EL1859_01.din-3
+    pin+lcec.m0.0501_EL1859_01.din-4
+    pin+lcec.m0.0501_EL1859_01.din-5
+    pin+lcec.m0.0501_EL1859_01.din-6
+    pin+lcec.m0.0501_EL1859_01.din-7
+    pin+lcec.m0.0501_EL1859_01.dout-0
+    pin+lcec.m0.0501_EL1859_01.dout-1
+    pin+lcec.m0.0501_EL1859_01.dout-2
+    pin+lcec.m0.0501_EL1859_01.dout-3
+    pin+lcec.m0.0501_EL1859_01.dout-4
+    pin+lcec.m0.0501_EL1859_01.dout-5
+    pin+lcec.m0.0501_EL1859_01.dout-6
+    pin+lcec.m0.0501_EL1859_01.dout-7
+    pin+lcec.m0.0501_EL5101_01.enc-frequency
+    pin+lcec.m0.0501_EL5101_01.enc-frequency-scale
+    pin+lcec.m0.0501_EL5101_01.enc-raw-freq
+    pin+lcec.m0.0511_EP2316.I1
+    pin+lcec.m0.0511_EP2316.I2
+    pin+lcec.m0.0511_EP2316.I3
+    pin+lcec.m0.0511_EP2316.I4
+    pin+lcec.m0.0511_EP2316.I5
+    pin+lcec.m0.0511_EP2316.I6
+    pin+lcec.m0.0511_EP2316.I7
+    pin+lcec.m0.0511_EP2316.I8
+    pin+lcec.m0.0511_EP2316.A1
+    pin+lcec.m0.0511_EP2316.A2
+    pin+lcec.m0.0511_EP2316.A3
+    pin+lcec.m0.0511_EP2316.A4
+    pin+lcec.m0.0511_EP2316.A5
+    pin+lcec.m0.0511_EP2316.A6
+    pin+lcec.m0.0511_EP2316.A7
+    pin+lcec.m0.0511_EP2316.A8
+    pin+lcec.m0.0511_EP4374.ch-1-value
+    pin+lcec.m0.0511_EP4374.ch-2-value
+    pin+lcec.m0.0511_EP4374.ch-3-analog-output
+    pin+lcec.m0.0511_EP4374.ch-4-analog-output
+    pin+limit_speed.max
+}
+set ::workmode watchhal
+set ::watchInterval 100
+set ::col1_width 100
+set ::ffmts 
+set ::ifmts 
+set ::alwaysOnTop 0
+set ::autoSaveWatchlist 1
